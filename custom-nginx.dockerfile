@@ -15,4 +15,4 @@ RUN apt-get install nginx -y
 EXPOSE 80
 
 # Last is the actual command to start up NGINX within our container
-CMD [ "nginx", "-g","daemon off" ]
+CMD [ "nginx", "-g","daemon off;" ]
