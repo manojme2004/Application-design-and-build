@@ -1,6 +1,5 @@
-rows = int(input("Enter number of rows: "))
-
-for i in range(rows):
-    for j in range(i+1):
-        print(j+1, end=" ")
-    print("\n")
+n=15
+for i in range(0,n):
+    print (((n-(i+1))*' ')+(((2*i)+1)*'*'))
+for i in range(1,n):
+    print (((i)*' ')+(((((n-i)*2)-1)*'*')))
